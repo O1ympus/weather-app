@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 import Button from './Button'
 import weatherHandler from '../utils/weatherHandler'
@@ -29,7 +31,7 @@ export default function UserCard({ user, isSaveOptionAvailable }: Props) {
     backdrop-blur-sm rounded-xl shadow-md
     border border-white/30 h-fit 2xl:w-full
     hover:shadow-lg transition-shadow duration-300">
-			<div className="w-28 h-28 relative rounded-full bg-gray-200 overflow-hidden mb-4">
+			<div className="relative rounded-full bg-gray-200 overflow-hidden mb-4">
 				<Image
 					src={user.picture.large}
 					width={112}

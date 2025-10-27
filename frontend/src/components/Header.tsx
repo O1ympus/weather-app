@@ -25,13 +25,14 @@ export default function Header() {
 	      },
 	      "flex items-center gap-2"
       )}>
-        <Image
-          src="/images/x-black.svg"
-          alt="x.com"
-          width={28}
-          height={28}
-          priority
-        />
+	      <div className={`w-7 h-7 relative`}>
+		      <Image
+			      src="/images/x-black.svg"
+			      alt="x.com"
+			      fill
+			      priority
+		      />
+        </div>
       </Link>
 
       <Navigation />

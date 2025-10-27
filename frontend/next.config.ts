@@ -1,10 +1,17 @@
 import type {NextConfig} from 'next'
 
 const nextConfig: NextConfig = {
-  images: {
-		domains: ['randomuser.me'],
-  },
-  reactCompiler: true,
-};
+	output: 'standalone',
+	images: {
+		remotePatterns: [
+			{
+				protocol: 'https',
+				hostname: 'randomuser.me',
+				port: '',
+				pathname: '/**',
+			},
+		],
+	},
+}
 
-export default nextConfig;
+export default nextConfig

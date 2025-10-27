@@ -47,7 +47,6 @@ export default function UserList() {
 				isLoading={isLoading}
 				className="!w-full sm:!w-[320px]"
 			/>
-			
 			<WeatherModal />
 		</div>
 	);

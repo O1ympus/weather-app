@@ -1,3 +1,5 @@
+'use client'
+
 import {useUserStore} from '../store/useUserStore'
 import {useEffect} from 'react'
 import {getSavedUser} from '../utils/usersApi'

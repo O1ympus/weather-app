@@ -1,9 +1,7 @@
 node_modules
-dist
+.next
 npm-debug.log
-.env
-.development.env
-test
+.env*.local
 .git
 .gitignore
 README.md

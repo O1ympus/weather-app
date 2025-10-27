@@ -2929,16 +2929,22 @@ const configEnv = ("TURBOPACK compile-time value", {
     "loader": ("TURBOPACK compile-time value", "default"),
     "dangerouslyAllowSVG": ("TURBOPACK compile-time value", false),
     "unoptimized": ("TURBOPACK compile-time value", false),
-    "domains": ("TURBOPACK compile-time value", [
-        ("TURBOPACK compile-time value", "randomuser.me")
+    "domains": ("TURBOPACK compile-time value", []),
+    "remotePatterns": ("TURBOPACK compile-time value", [
+        ("TURBOPACK compile-time value", {
+            "protocol": ("TURBOPACK compile-time value", "https"),
+            "hostname": ("TURBOPACK compile-time value", "randomuser.me"),
+            "port": ("TURBOPACK compile-time value", ""),
+            "pathname": ("TURBOPACK compile-time value", "/**")
+        })
     ]),
-    "remotePatterns": ("TURBOPACK compile-time value", []),
     "localPatterns": ("TURBOPACK compile-time value", [
         ("TURBOPACK compile-time value", {
             "pathname": ("TURBOPACK compile-time value", "**"),
             "search": ("TURBOPACK compile-time value", "")
         })
-    ])
+    ]),
+    "output": ("TURBOPACK compile-time value", "standalone")
 });
 if ("TURBOPACK compile-time truthy", 1) {
     ;
@@ -3284,16 +3290,22 @@ function getImageProps(imgProps) {
             "loader": ("TURBOPACK compile-time value", "default"),
             "dangerouslyAllowSVG": ("TURBOPACK compile-time value", false),
             "unoptimized": ("TURBOPACK compile-time value", false),
-            "domains": ("TURBOPACK compile-time value", [
-                ("TURBOPACK compile-time value", "randomuser.me")
+            "domains": ("TURBOPACK compile-time value", []),
+            "remotePatterns": ("TURBOPACK compile-time value", [
+                ("TURBOPACK compile-time value", {
+                    "protocol": ("TURBOPACK compile-time value", "https"),
+                    "hostname": ("TURBOPACK compile-time value", "randomuser.me"),
+                    "port": ("TURBOPACK compile-time value", ""),
+                    "pathname": ("TURBOPACK compile-time value", "/**")
+                })
             ]),
-            "remotePatterns": ("TURBOPACK compile-time value", []),
             "localPatterns": ("TURBOPACK compile-time value", [
                 ("TURBOPACK compile-time value", {
                     "pathname": ("TURBOPACK compile-time value", "**"),
                     "search": ("TURBOPACK compile-time value", "")
                 })
-            ])
+            ]),
+            "output": ("TURBOPACK compile-time value", "standalone")
         })
     });
     // Normally we don't care about undefined props because we pass to JSX,
@@ -6741,7 +6753,7 @@ var EntryStatus = /*#__PURE__*/ function(EntryStatus) {
     EntryStatus[EntryStatus["Rejected"] = 3] = "Rejected";
     return EntryStatus;
 }({});
-const isOutputExportMode = ("TURBOPACK compile-time value", "development") === 'production' && ("TURBOPACK compile-time value", void 0) === 'export';
+const isOutputExportMode = ("TURBOPACK compile-time value", "development") === 'production' && ("TURBOPACK compile-time value", "standalone") === 'export';
 /**
  * Ensures a minimum stale time of 30s to avoid issues where the server sends a too
  * short-lived stale time, which would prevent anything from being prefetched.

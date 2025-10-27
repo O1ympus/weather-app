@@ -41,68 +41,35 @@ __turbopack_context__.s([
     ()=>DateComponent
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
 ;
-;
-function DateComponent(t0) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(8);
-    if ($[0] !== "288658a308629602d6bfbfcf6dd2e1d6998afba98bdf679fa35ff0fcf52f870f") {
-        for(let $i = 0; $i < 8; $i += 1){
-            $[$i] = Symbol.for("react.memo_cache_sentinel");
-        }
-        $[0] = "288658a308629602d6bfbfcf6dd2e1d6998afba98bdf679fa35ff0fcf52f870f";
-    }
-    const { dayName, finalDate } = t0;
-    let t1;
-    if ($[1] !== dayName) {
-        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "font-medium block",
-            children: dayName
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/Date.tsx",
-            lineNumber: 20,
-            columnNumber: 10
-        }, this);
-        $[1] = dayName;
-        $[2] = t1;
-    } else {
-        t1 = $[2];
-    }
-    let t2;
-    if ($[3] !== finalDate) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "font-thin block",
-            children: finalDate
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/Date.tsx",
-            lineNumber: 28,
-            columnNumber: 10
-        }, this);
-        $[3] = finalDate;
-        $[4] = t2;
-    } else {
-        t2 = $[4];
-    }
-    let t3;
-    if ($[5] !== t1 || $[6] !== t2) {
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "text-white flex justify-between w-full text-lg sm:flex-col\n\t\t\tsm:w-auto items-start sm:text-2xl xl:text-4xl xl:leading-13\n\t\t",
-            children: [
-                t1,
-                t2
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/Date.tsx",
-            lineNumber: 36,
-            columnNumber: 10
-        }, this);
-        $[5] = t1;
-        $[6] = t2;
-        $[7] = t3;
-    } else {
-        t3 = $[7];
-    }
-    return t3;
+function DateComponent({ dayName, finalDate }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: `text-white flex justify-between w-full text-lg sm:flex-col
+			sm:w-auto items-start sm:text-2xl xl:text-4xl xl:leading-13
+		`,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: `font-medium block`,
+                children: dayName
+            }, void 0, false, {
+                fileName: "[project]/frontend/src/components/Date.tsx",
+                lineNumber: 11,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: `font-thin block`,
+                children: finalDate
+            }, void 0, false, {
+                fileName: "[project]/frontend/src/components/Date.tsx",
+                lineNumber: 12,
+                columnNumber: 4
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/frontend/src/components/Date.tsx",
+        lineNumber: 8,
+        columnNumber: 3
+    }, this);
 }
 _c = DateComponent;
 var _c;
@@ -119,184 +86,117 @@ __turbopack_context__.s([
     ()=>WeatherMetrics
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/image.js [app-client] (ecmascript)");
 ;
 ;
-;
-function WeatherMetrics(t0) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(15);
-    if ($[0] !== "871bee839a50108fddcd294d7885063869d4149ed5ff87abc828cd0e86854806") {
-        for(let $i = 0; $i < 15; $i += 1){
-            $[$i] = Symbol.for("react.memo_cache_sentinel");
-        }
-        $[0] = "871bee839a50108fddcd294d7885063869d4149ed5ff87abc828cd0e86854806";
-    }
-    const { weatherData } = t0;
-    const t1 = weatherData?.currentTemperature || 0;
-    let t2;
-    if ($[1] !== t1) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-            className: "font-thin text-8xl xl:text-9xl",
-            children: [
-                t1,
-                "°C"
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
-            lineNumber: 21,
-            columnNumber: 10
-        }, this);
-        $[1] = t1;
-        $[2] = t2;
-    } else {
-        t2 = $[2];
-    }
-    let t3;
-    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "w-4 h-4 relative xl:w-7 xl:h-7",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                src: "/images/arrow-top.svg",
-                alt: "arrow-top",
-                fill: true,
-                style: {
-                    objectFit: "contain"
-                }
-            }, void 0, false, {
+function WeatherMetrics({ weatherData }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: `text-white flex flex-col items-center w-[40%] gap-3
+			md:w-[50%] xl:flex-row xl:w-[45%] xl:justify-between
+		`,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                className: `font-thin text-8xl xl:text-9xl`,
+                children: [
+                    weatherData?.currentTemperature || 0,
+                    "°C"
+                ]
+            }, void 0, true, {
                 fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
-                lineNumber: 29,
-                columnNumber: 58
-            }, this)
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
-            lineNumber: 29,
-            columnNumber: 10
-        }, this);
-        $[3] = t3;
-    } else {
-        t3 = $[3];
-    }
-    const t4 = weatherData?.highestTemperature || 0;
-    let t5;
-    if ($[4] !== t4) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex gap-2 text-xl items-center xl:text-4xl",
-            children: [
-                t3,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    children: [
-                        t4,
-                        "°C"
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
-                    lineNumber: 39,
-                    columnNumber: 75
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
-            lineNumber: 39,
-            columnNumber: 10
-        }, this);
-        $[4] = t4;
-        $[5] = t5;
-    } else {
-        t5 = $[5];
-    }
-    let t6;
-    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "w-4 h-4 relative xl:w-7 xl:h-7",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                src: "/images/arrow-bottom.svg",
-                alt: "arrow-bottom",
-                fill: true,
-                style: {
-                    objectFit: "contain"
-                }
-            }, void 0, false, {
+                lineNumber: 13,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: `flex gap-5 xl:flex-col`,
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: `flex gap-2 text-xl items-center xl:text-4xl`,
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: `w-4 h-4 relative xl:w-7 xl:h-7`,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    src: "/images/arrow-top.svg",
+                                    alt: "arrow-top",
+                                    fill: true,
+                                    style: {
+                                        objectFit: "contain"
+                                    }
+                                }, void 0, false, {
+                                    fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
+                                    lineNumber: 19,
+                                    columnNumber: 7
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
+                                lineNumber: 18,
+                                columnNumber: 6
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: [
+                                    weatherData?.highestTemperature || 0,
+                                    "°C"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
+                                lineNumber: 26,
+                                columnNumber: 6
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
+                        lineNumber: 17,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: `flex gap-2 text-xl items-center xl:text-4xl`,
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: `w-4 h-4 relative xl:w-7 xl:h-7`,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    src: "/images/arrow-bottom.svg",
+                                    alt: "arrow-bottom",
+                                    fill: true,
+                                    style: {
+                                        objectFit: "contain"
+                                    }
+                                }, void 0, false, {
+                                    fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
+                                    lineNumber: 31,
+                                    columnNumber: 7
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
+                                lineNumber: 30,
+                                columnNumber: 6
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: [
+                                    weatherData?.lowestTemperature || 0,
+                                    "°C"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
+                                lineNumber: 38,
+                                columnNumber: 6
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
+                        lineNumber: 29,
+                        columnNumber: 5
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
-                lineNumber: 47,
-                columnNumber: 58
+                lineNumber: 16,
+                columnNumber: 4
             }, this)
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
-            lineNumber: 47,
-            columnNumber: 10
-        }, this);
-        $[6] = t6;
-    } else {
-        t6 = $[6];
-    }
-    const t7 = weatherData?.lowestTemperature || 0;
-    let t8;
-    if ($[7] !== t7) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex gap-2 text-xl items-center xl:text-4xl",
-            children: [
-                t6,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    children: [
-                        t7,
-                        "°C"
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
-                    lineNumber: 57,
-                    columnNumber: 75
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
-            lineNumber: 57,
-            columnNumber: 10
-        }, this);
-        $[7] = t7;
-        $[8] = t8;
-    } else {
-        t8 = $[8];
-    }
-    let t9;
-    if ($[9] !== t5 || $[10] !== t8) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex gap-5 xl:flex-col",
-            children: [
-                t5,
-                t8
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
-            lineNumber: 65,
-            columnNumber: 10
-        }, this);
-        $[9] = t5;
-        $[10] = t8;
-        $[11] = t9;
-    } else {
-        t9 = $[11];
-    }
-    let t10;
-    if ($[12] !== t2 || $[13] !== t9) {
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "text-white flex flex-col items-center w-[40%] gap-3\n\t\t\tmd:w-[50%] xl:flex-row xl:w-[45%] xl:justify-between\n\t\t",
-            children: [
-                t2,
-                t9
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
-            lineNumber: 74,
-            columnNumber: 11
-        }, this);
-        $[12] = t2;
-        $[13] = t9;
-        $[14] = t10;
-    } else {
-        t10 = $[14];
-    }
-    return t10;
+        ]
+    }, void 0, true, {
+        fileName: "[project]/frontend/src/components/WeatherMetrics.tsx",
+        lineNumber: 10,
+        columnNumber: 3
+    }, this);
 }
 _c = WeatherMetrics;
 var _c;
@@ -340,73 +240,49 @@ __turbopack_context__.s([
     ()=>CurrentLocation
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/image.js [app-client] (ecmascript)");
 ;
 ;
-;
-function CurrentLocation(t0) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "44d3aaa9fab910afc89959ac2115efa11d443e22fdf6d6e4ce5640fbf9513434") {
-        for(let $i = 0; $i < 5; $i += 1){
-            $[$i] = Symbol.for("react.memo_cache_sentinel");
-        }
-        $[0] = "44d3aaa9fab910afc89959ac2115efa11d443e22fdf6d6e4ce5640fbf9513434";
-    }
-    const { location } = t0;
-    let t1;
-    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
-        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "relative w-[14px] h-[14px] sm:w-[22px] sm:h-[22px]",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                src: "images/location.svg",
-                fill: true,
-                alt: "location"
+function CurrentLocation({ location }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: `bg-[#363636]/50 py-[9px] px-4 gap-2 rounded-2xl h-fit
+			w-full flex items-center justify-center mb-4 sm:w-auto sm:flex-row
+		`,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative w-[14px] h-[14px] sm:w-[22px] sm:h-[22px]",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: "images/location.svg",
+                    fill: true,
+                    alt: "location"
+                }, void 0, false, {
+                    fileName: "[project]/frontend/src/components/CurrentLocation.tsx",
+                    lineNumber: 14,
+                    columnNumber: 5
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/frontend/src/components/CurrentLocation.tsx",
+                lineNumber: 13,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: `text-white text-xs sm:text-lg xl:text-3xl`,
+                children: [
+                    location.country,
+                    ", ",
+                    location.city
+                ]
+            }, void 0, true, {
+                fileName: "[project]/frontend/src/components/CurrentLocation.tsx",
                 lineNumber: 20,
-                columnNumber: 78
+                columnNumber: 4
             }, this)
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/CurrentLocation.tsx",
-            lineNumber: 20,
-            columnNumber: 10
-        }, this);
-        $[1] = t1;
-    } else {
-        t1 = $[1];
-    }
-    let t2;
-    if ($[2] !== location.city || $[3] !== location.country) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "bg-[#363636]/50 py-[9px] px-4 gap-2 rounded-2xl h-fit\n\t\t\tw-full flex items-center justify-center mb-4 sm:w-auto sm:flex-row\n\t\t",
-            children: [
-                t1,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    className: "text-white text-xs sm:text-lg xl:text-3xl",
-                    children: [
-                        location.country,
-                        ", ",
-                        location.city
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/frontend/src/components/CurrentLocation.tsx",
-                    lineNumber: 27,
-                    columnNumber: 167
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/CurrentLocation.tsx",
-            lineNumber: 27,
-            columnNumber: 10
-        }, this);
-        $[2] = location.city;
-        $[3] = location.country;
-        $[4] = t2;
-    } else {
-        t2 = $[4];
-    }
-    return t2;
+        ]
+    }, void 0, true, {
+        fileName: "[project]/frontend/src/components/CurrentLocation.tsx",
+        lineNumber: 10,
+        columnNumber: 3
+    }, this);
 }
 _c = CurrentLocation;
 var _c;
@@ -423,7 +299,6 @@ __turbopack_context__.s([
     ()=>WeatherModal
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$context$2f$WeatherContext$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/src/context/WeatherContext.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$types$2f$WeatherIcons$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/src/types/WeatherIcons.ts [app-client] (ecmascript)");
@@ -440,287 +315,128 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-;
 function WeatherModal() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(46);
-    if ($[0] !== "8d9d428dfd70e33d7032b6f7374467260761b025b010b5fd69b0735c2c84996c") {
-        for(let $i = 0; $i < 46; $i += 1){
-            $[$i] = Symbol.for("react.memo_cache_sentinel");
-        }
-        $[0] = "8d9d428dfd70e33d7032b6f7374467260761b025b010b5fd69b0735c2c84996c";
-    }
     const { weatherData, location, isModalWindowActive, setIsModalWindowActive } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$context$2f$WeatherContext$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useWeatherContext"])();
     const weatherCode = Number(weatherData?.icon) || 0;
-    let T0;
-    let t0;
-    let t1;
-    let t2;
-    let t3;
-    let t4;
-    let t5;
-    let t6;
-    let t7;
-    if ($[1] !== isModalWindowActive || $[2] !== location || $[3] !== weatherCode) {
-        t7 = Symbol.for("react.early_return_sentinel");
-        bb0: {
-            const weatherName = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$types$2f$WeatherIcons$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getWeatherIcon"])(weatherCode);
-            const weatherPath = `images/weather-icons/${weatherName}`;
-            let t8;
-            if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
-                t8 = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$utils$2f$getDate$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getDate"])();
-                $[13] = t8;
-            } else {
-                t8 = $[13];
-            }
-            const [dayName, finalDate] = t8;
-            if (!isModalWindowActive) {
-                t7 = null;
-                break bb0;
-            }
-            t5 = " mx-6 bg-[#1E1E1E]/20 rounded-xl px-2 py-8\n\t\t\t\tfixed backdrop-blur-sm w-[calc(100%-48px)]\n\t\t\t\tborder border-white/20 shadow-lg sm:px-6 md:h-[350px]\n\t\t\t\tmax-w-[780px] top-1/2 -translate-y-1/2\n\t\t\t\txl:w-[80%] xl:h-[500px] xl:flex xl:flex-col xl:justify-between\n\t\t\t\txl:max-w-[1050px] xl:pt-12\n\t\t\t";
-            let t9;
-            if ($[14] === Symbol.for("react.memo_cache_sentinel")) {
-                t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$Date$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    finalDate: finalDate,
-                    dayName: dayName
-                }, void 0, false, {
-                    fileName: "[project]/frontend/src/components/WeatherModal.tsx",
-                    lineNumber: 53,
-                    columnNumber: 14
-                }, this);
-                $[14] = t9;
-            } else {
-                t9 = $[14];
-            }
-            let t10;
-            if ($[15] !== location) {
-                t10 = location || {
-                    country: "",
-                    city: ""
-                };
-                $[15] = location;
-                $[16] = t10;
-            } else {
-                t10 = $[16];
-            }
-            if ($[17] !== t10) {
-                t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col-reverse justify-between items-center\n\t\t\t\tsm:flex-row\n\t\t\t",
-                    children: [
-                        t9,
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$CurrentLocation$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            location: t10
+    const weatherName = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$types$2f$WeatherIcons$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getWeatherIcon"])(weatherCode);
+    const weatherPath = `images/weather-icons/${weatherName}`;
+    const [dayName, finalDate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$utils$2f$getDate$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getDate"])();
+    if (!isModalWindowActive) {
+        return null;
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: ` mx-6 bg-[#1E1E1E]/20 rounded-xl px-2 py-8
+				fixed backdrop-blur-sm w-[calc(100%-48px)]
+				border border-white/20 shadow-lg sm:px-6 md:h-[350px]
+				max-w-[780px] top-1/2 -translate-y-1/2
+				xl:w-[80%] xl:h-[500px] xl:flex xl:flex-col xl:justify-between
+				xl:max-w-[1050px] xl:pt-12
+			`,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: `flex flex-col-reverse justify-between items-center
+				sm:flex-row
+			`,
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$Date$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        finalDate: finalDate,
+                        dayName: dayName
+                    }, void 0, false, {
+                        fileName: "[project]/frontend/src/components/WeatherModal.tsx",
+                        lineNumber: 40,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$CurrentLocation$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        location: location || {
+                            country: '',
+                            city: ''
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/frontend/src/components/WeatherModal.tsx",
+                        lineNumber: 41,
+                        columnNumber: 5
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/frontend/src/components/WeatherModal.tsx",
+                lineNumber: 37,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: `flex flex-col items-center justify-between
+				md:flex-row
+			`,
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: `md:w-[50%] h-full flex items-center justify-center xl:w-[45%]`,
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: `w-[250px] h-[250px] xl:h-[350px] xl:w-full
+						relative
+					`,
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                src: weatherPath,
+                                alt: weatherName.split('.')[0],
+                                fill: true,
+                                loading: "eager",
+                                style: {
+                                    objectFit: "contain"
+                                }
+                            }, void 0, false, {
+                                fileName: "[project]/frontend/src/components/WeatherModal.tsx",
+                                lineNumber: 51,
+                                columnNumber: 7
+                            }, this)
                         }, void 0, false, {
                             fileName: "[project]/frontend/src/components/WeatherModal.tsx",
-                            lineNumber: 70,
-                            columnNumber: 117
+                            lineNumber: 48,
+                            columnNumber: 6
                         }, this)
-                    ]
-                }, void 0, true, {
+                    }, void 0, false, {
+                        fileName: "[project]/frontend/src/components/WeatherModal.tsx",
+                        lineNumber: 47,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$WeatherMetrics$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        weatherData: weatherData
+                    }, void 0, false, {
+                        fileName: "[project]/frontend/src/components/WeatherModal.tsx",
+                        lineNumber: 61,
+                        columnNumber: 5
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/frontend/src/components/WeatherModal.tsx",
+                lineNumber: 44,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                className: `absolute right-2 top-2 w-[14px] h-[14px] xl:w-[28px] xl:h-[28px]
+					xl:right-4 xl:top-4 cursor-pointer
+				`,
+                onClick: ()=>setIsModalWindowActive(false),
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: "/images/x.svg",
+                    fill: true,
+                    alt: "x"
+                }, void 0, false, {
                     fileName: "[project]/frontend/src/components/WeatherModal.tsx",
                     lineNumber: 70,
-                    columnNumber: 14
-                }, this);
-                $[17] = t10;
-                $[18] = t6;
-            } else {
-                t6 = $[18];
-            }
-            t4 = "flex flex-col items-center justify-between\n\t\t\t\tmd:flex-row\n\t\t\t";
-            t3 = "md:w-[50%] h-full flex items-center justify-center xl:w-[45%]";
-            t2 = "w-[250px] h-[250px] xl:h-[350px] xl:w-full\n\t\t\t\t\t\trelative\n\t\t\t\t\t";
-            T0 = __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"];
-            t0 = weatherPath;
-            t1 = weatherName.split(".");
-        }
-        $[1] = isModalWindowActive;
-        $[2] = location;
-        $[3] = weatherCode;
-        $[4] = T0;
-        $[5] = t0;
-        $[6] = t1;
-        $[7] = t2;
-        $[8] = t3;
-        $[9] = t4;
-        $[10] = t5;
-        $[11] = t6;
-        $[12] = t7;
-    } else {
-        T0 = $[4];
-        t0 = $[5];
-        t1 = $[6];
-        t2 = $[7];
-        t3 = $[8];
-        t4 = $[9];
-        t5 = $[10];
-        t6 = $[11];
-        t7 = $[12];
-    }
-    if (t7 !== Symbol.for("react.early_return_sentinel")) {
-        return t7;
-    }
-    let t8;
-    if ($[19] === Symbol.for("react.memo_cache_sentinel")) {
-        t8 = {
-            objectFit: "contain"
-        };
-        $[19] = t8;
-    } else {
-        t8 = $[19];
-    }
-    let t9;
-    if ($[20] !== T0 || $[21] !== t0 || $[22] !== t1[0]) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(T0, {
-            src: t0,
-            alt: t1[0],
-            fill: true,
-            loading: "eager",
-            style: t8
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/WeatherModal.tsx",
-            lineNumber: 120,
-            columnNumber: 10
-        }, this);
-        $[20] = T0;
-        $[21] = t0;
-        $[22] = t1[0];
-        $[23] = t9;
-    } else {
-        t9 = $[23];
-    }
-    let t10;
-    if ($[24] !== t2 || $[25] !== t9) {
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: t2,
-            children: t9
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/WeatherModal.tsx",
-            lineNumber: 130,
-            columnNumber: 11
-        }, this);
-        $[24] = t2;
-        $[25] = t9;
-        $[26] = t10;
-    } else {
-        t10 = $[26];
-    }
-    let t11;
-    if ($[27] !== t10 || $[28] !== t3) {
-        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: t3,
-            children: t10
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/WeatherModal.tsx",
-            lineNumber: 139,
-            columnNumber: 11
-        }, this);
-        $[27] = t10;
-        $[28] = t3;
-        $[29] = t11;
-    } else {
-        t11 = $[29];
-    }
-    let t12;
-    if ($[30] !== weatherData) {
-        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$WeatherMetrics$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            weatherData: weatherData
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/WeatherModal.tsx",
-            lineNumber: 148,
-            columnNumber: 11
-        }, this);
-        $[30] = weatherData;
-        $[31] = t12;
-    } else {
-        t12 = $[31];
-    }
-    let t13;
-    if ($[32] !== t11 || $[33] !== t12 || $[34] !== t4) {
-        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: t4,
-            children: [
-                t11,
-                t12
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/WeatherModal.tsx",
-            lineNumber: 156,
-            columnNumber: 11
-        }, this);
-        $[32] = t11;
-        $[33] = t12;
-        $[34] = t4;
-        $[35] = t13;
-    } else {
-        t13 = $[35];
-    }
-    let t14;
-    if ($[36] !== setIsModalWindowActive) {
-        t14 = ({
-            "WeatherModal[<button>.onClick]": ()=>setIsModalWindowActive(false)
-        })["WeatherModal[<button>.onClick]"];
-        $[36] = setIsModalWindowActive;
-        $[37] = t14;
-    } else {
-        t14 = $[37];
-    }
-    let t15;
-    if ($[38] === Symbol.for("react.memo_cache_sentinel")) {
-        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            src: "/images/x.svg",
-            fill: true,
-            alt: "x"
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/WeatherModal.tsx",
-            lineNumber: 176,
-            columnNumber: 11
-        }, this);
-        $[38] = t15;
-    } else {
-        t15 = $[38];
-    }
-    let t16;
-    if ($[39] !== t14) {
-        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-            className: "absolute right-2 top-2 w-[14px] h-[14px] xl:w-[28px] xl:h-[28px]\n\t\t\t\t\txl:right-4 xl:top-4 cursor-pointer\n\t\t\t\t",
-            onClick: t14,
-            children: t15
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/WeatherModal.tsx",
-            lineNumber: 183,
-            columnNumber: 11
-        }, this);
-        $[39] = t14;
-        $[40] = t16;
-    } else {
-        t16 = $[40];
-    }
-    let t17;
-    if ($[41] !== t13 || $[42] !== t16 || $[43] !== t5 || $[44] !== t6) {
-        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: t5,
-            children: [
-                t6,
-                t13,
-                t16
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/WeatherModal.tsx",
-            lineNumber: 191,
-            columnNumber: 11
-        }, this);
-        $[41] = t13;
-        $[42] = t16;
-        $[43] = t5;
-        $[44] = t6;
-        $[45] = t17;
-    } else {
-        t17 = $[45];
-    }
-    return t17;
+                    columnNumber: 5
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/frontend/src/components/WeatherModal.tsx",
+                lineNumber: 64,
+                columnNumber: 4
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/frontend/src/components/WeatherModal.tsx",
+        lineNumber: 28,
+        columnNumber: 3
+    }, this);
 }
-_s(WeatherModal, "CN4nNzjxkHymA1JKeqpjYfiuUb0=", false, function() {
+_s(WeatherModal, "FPu71m2xlZYzFEHw3mvE9KKf1Pg=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$context$2f$WeatherContext$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useWeatherContext"]
     ];
@@ -740,45 +456,23 @@ __turbopack_context__.s([
     ()=>Button
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
 ;
-;
-function Button(t0) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(6);
-    if ($[0] !== "986fb02f8eff7aed7fa1c0e75175fd0596ffd7cada998201647b9341b52b3ce9") {
-        for(let $i = 0; $i < 6; $i += 1){
-            $[$i] = Symbol.for("react.memo_cache_sentinel");
-        }
-        $[0] = "986fb02f8eff7aed7fa1c0e75175fd0596ffd7cada998201647b9341b52b3ce9";
-    }
-    const { text, onClick, isLoading, className } = t0;
-    const t1 = `w-full text-white bg-transparent border border-gray-300
+function Button({ text, onClick, isLoading, className }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+        type: "button",
+        className: `w-full text-white bg-transparent border border-gray-300
 		    focus:outline-none hover:bg-[#7D7F8A] focus:ring-1 focus:ring-gray-100
 		    font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 cursor-pointer
 		    ${className}
-     `;
-    let t2;
-    if ($[1] !== isLoading || $[2] !== onClick || $[3] !== t1 || $[4] !== text) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-            type: "button",
-            className: t1,
-            onClick: onClick,
-            disabled: isLoading,
-            children: text
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/Button.tsx",
-            lineNumber: 29,
-            columnNumber: 10
-        }, this);
-        $[1] = isLoading;
-        $[2] = onClick;
-        $[3] = t1;
-        $[4] = text;
-        $[5] = t2;
-    } else {
-        t2 = $[5];
-    }
-    return t2;
+     `,
+        onClick: onClick,
+        disabled: isLoading,
+        children: text
+    }, void 0, false, {
+        fileName: "[project]/frontend/src/components/Button.tsx",
+        lineNumber: 10,
+        columnNumber: 3
+    }, this);
 }
 _c = Button;
 var _c;
@@ -856,7 +550,6 @@ __turbopack_context__.s([
     ()=>UserCard
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/src/components/Button.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$utils$2f$weatherHandler$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/src/utils/weatherHandler.ts [app-client] (ecmascript)");
@@ -869,317 +562,174 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-;
-function UserCard(t0) {
+function UserCard({ user, isSaveOptionAvailable }) {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(37);
-    if ($[0] !== "e34a520242c97214552f3e9e1545339f83ef591538cfc7c2ffcaa4bdc8f0a67a") {
-        for(let $i = 0; $i < 37; $i += 1){
-            $[$i] = Symbol.for("react.memo_cache_sentinel");
-        }
-        $[0] = "e34a520242c97214552f3e9e1545339f83ef591538cfc7c2ffcaa4bdc8f0a67a";
-    }
-    const { user, isSaveOptionAvailable } = t0;
     const { setIsModalWindowActive, setWeatherData, setLocation } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$context$2f$WeatherContext$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useWeatherContext"])();
-    let t1;
-    if ($[1] !== setIsModalWindowActive || $[2] !== setLocation || $[3] !== setWeatherData || $[4] !== user) {
-        t1 = ({
-            "UserCard[handleWeatherClick]": async ()=>{
-                const weather = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$utils$2f$weatherHandler$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(user);
-                setWeatherData(weather);
-                setIsModalWindowActive(true);
-                setLocation({
-                    country: user.location.country,
-                    city: user.location.city
-                });
-            }
-        })["UserCard[handleWeatherClick]"];
-        $[1] = setIsModalWindowActive;
-        $[2] = setLocation;
-        $[3] = setWeatherData;
-        $[4] = user;
-        $[5] = t1;
-    } else {
-        t1 = $[5];
-    }
-    const handleWeatherClick = t1;
-    let t2;
-    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
-        t2 = {
-            objectFit: "cover"
-        };
-        $[6] = t2;
-    } else {
-        t2 = $[6];
-    }
-    let t3;
-    if ($[7] !== user.picture.large) {
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "w-28 h-28 relative rounded-full bg-gray-200 overflow-hidden mb-4",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                src: user.picture.large,
-                width: 112,
-                height: 112,
-                style: t2,
-                alt: "avatar",
-                loading: "eager"
+    const handleWeatherClick = async ()=>{
+        const weather = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$utils$2f$weatherHandler$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(user);
+        setWeatherData(weather);
+        setIsModalWindowActive(true);
+        setLocation({
+            country: user.location.country,
+            city: user.location.city
+        });
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "p-6 flex flex-col items-center backdrop-blur-sm rounded-xl shadow-md border border-white/30 h-fit 2xl:w-full hover:shadow-lg transition-shadow duration-300",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-28 h-28 relative rounded-full bg-gray-200 overflow-hidden mb-4",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: user.picture.large,
+                    width: 112,
+                    height: 112,
+                    style: {
+                        objectFit: 'cover'
+                    },
+                    alt: "avatar",
+                    loading: "eager"
+                }, void 0, false, {
+                    fileName: "[project]/frontend/src/components/UserCard.tsx",
+                    lineNumber: 33,
+                    columnNumber: 5
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/frontend/src/components/UserCard.tsx",
-                lineNumber: 62,
-                columnNumber: 92
+                lineNumber: 32,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "text-center space-y-1 mb-4",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                        className: "text-lg font-bold text-white mb-4",
+                        children: user.name.title + ' ' + user.name.first + ' ' + user.name.last
+                    }, void 0, false, {
+                        fileName: "[project]/frontend/src/components/UserCard.tsx",
+                        lineNumber: 43,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-sm text-left flex-col",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-gray-100",
+                                children: "Gender: "
+                            }, void 0, false, {
+                                fileName: "[project]/frontend/src/components/UserCard.tsx",
+                                lineNumber: 47,
+                                columnNumber: 6
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "font-thin text-gray-200",
+                                children: user.gender
+                            }, void 0, false, {
+                                fileName: "[project]/frontend/src/components/UserCard.tsx",
+                                lineNumber: 48,
+                                columnNumber: 6
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/frontend/src/components/UserCard.tsx",
+                        lineNumber: 46,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-sm text-left",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-gray-100",
+                                children: "Location: "
+                            }, void 0, false, {
+                                fileName: "[project]/frontend/src/components/UserCard.tsx",
+                                lineNumber: 53,
+                                columnNumber: 6
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "font-thin text-gray-200",
+                                children: user.location.street.name + ' ' + user.location.street.number
+                            }, void 0, false, {
+                                fileName: "[project]/frontend/src/components/UserCard.tsx",
+                                lineNumber: 54,
+                                columnNumber: 6
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/frontend/src/components/UserCard.tsx",
+                        lineNumber: 52,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-sm text-left",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-gray-100",
+                                children: "Email: "
+                            }, void 0, false, {
+                                fileName: "[project]/frontend/src/components/UserCard.tsx",
+                                lineNumber: 59,
+                                columnNumber: 6
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "font-thin text-gray-200",
+                                children: user.email
+                            }, void 0, false, {
+                                fileName: "[project]/frontend/src/components/UserCard.tsx",
+                                lineNumber: 60,
+                                columnNumber: 6
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/frontend/src/components/UserCard.tsx",
+                        lineNumber: 58,
+                        columnNumber: 5
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/frontend/src/components/UserCard.tsx",
+                lineNumber: 42,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex w-full",
+                children: [
+                    isSaveOptionAvailable && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        text: "save",
+                        onClick: async ()=>{
+                            const result = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$utils$2f$usersApi$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["saveUser"])(user);
+                            if (result) {
+                                alert('User saved successfully!');
+                            } else {
+                                alert('Failed to save user');
+                            }
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/frontend/src/components/UserCard.tsx",
+                        lineNumber: 67,
+                        columnNumber: 6
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        text: "weather",
+                        onClick: ()=>handleWeatherClick()
+                    }, void 0, false, {
+                        fileName: "[project]/frontend/src/components/UserCard.tsx",
+                        lineNumber: 80,
+                        columnNumber: 5
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/frontend/src/components/UserCard.tsx",
+                lineNumber: 65,
+                columnNumber: 4
             }, this)
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/UserCard.tsx",
-            lineNumber: 62,
-            columnNumber: 10
-        }, this);
-        $[7] = user.picture.large;
-        $[8] = t3;
-    } else {
-        t3 = $[8];
-    }
-    const t4 = user.name.title + " " + user.name.first + " " + user.name.last;
-    let t5;
-    if ($[9] !== t4) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-            className: "text-lg font-bold text-white mb-4",
-            children: t4
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/UserCard.tsx",
-            lineNumber: 71,
-            columnNumber: 10
-        }, this);
-        $[9] = t4;
-        $[10] = t5;
-    } else {
-        t5 = $[10];
-    }
-    let t6;
-    if ($[11] === Symbol.for("react.memo_cache_sentinel")) {
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "text-gray-100",
-            children: "Gender: "
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/UserCard.tsx",
-            lineNumber: 79,
-            columnNumber: 10
-        }, this);
-        $[11] = t6;
-    } else {
-        t6 = $[11];
-    }
-    let t7;
-    if ($[12] !== user.gender) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-sm text-left flex-col",
-            children: [
-                t6,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    className: "font-thin text-gray-200",
-                    children: user.gender
-                }, void 0, false, {
-                    fileName: "[project]/frontend/src/components/UserCard.tsx",
-                    lineNumber: 86,
-                    columnNumber: 56
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/UserCard.tsx",
-            lineNumber: 86,
-            columnNumber: 10
-        }, this);
-        $[12] = user.gender;
-        $[13] = t7;
-    } else {
-        t7 = $[13];
-    }
-    let t8;
-    if ($[14] === Symbol.for("react.memo_cache_sentinel")) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "text-gray-100",
-            children: "Location: "
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/UserCard.tsx",
-            lineNumber: 94,
-            columnNumber: 10
-        }, this);
-        $[14] = t8;
-    } else {
-        t8 = $[14];
-    }
-    const t9 = user.location.street.name + " " + user.location.street.number;
-    let t10;
-    if ($[15] !== t9) {
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-sm text-left",
-            children: [
-                t8,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    className: "font-thin text-gray-200",
-                    children: t9
-                }, void 0, false, {
-                    fileName: "[project]/frontend/src/components/UserCard.tsx",
-                    lineNumber: 102,
-                    columnNumber: 48
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/UserCard.tsx",
-            lineNumber: 102,
-            columnNumber: 11
-        }, this);
-        $[15] = t9;
-        $[16] = t10;
-    } else {
-        t10 = $[16];
-    }
-    let t11;
-    if ($[17] === Symbol.for("react.memo_cache_sentinel")) {
-        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "text-gray-100",
-            children: "Email: "
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/UserCard.tsx",
-            lineNumber: 110,
-            columnNumber: 11
-        }, this);
-        $[17] = t11;
-    } else {
-        t11 = $[17];
-    }
-    let t12;
-    if ($[18] !== user.email) {
-        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-sm text-left",
-            children: [
-                t11,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    className: "font-thin text-gray-200",
-                    children: user.email
-                }, void 0, false, {
-                    fileName: "[project]/frontend/src/components/UserCard.tsx",
-                    lineNumber: 117,
-                    columnNumber: 49
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/UserCard.tsx",
-            lineNumber: 117,
-            columnNumber: 11
-        }, this);
-        $[18] = user.email;
-        $[19] = t12;
-    } else {
-        t12 = $[19];
-    }
-    let t13;
-    if ($[20] !== t10 || $[21] !== t12 || $[22] !== t5 || $[23] !== t7) {
-        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "text-center space-y-1 mb-4",
-            children: [
-                t5,
-                t7,
-                t10,
-                t12
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/UserCard.tsx",
-            lineNumber: 125,
-            columnNumber: 11
-        }, this);
-        $[20] = t10;
-        $[21] = t12;
-        $[22] = t5;
-        $[23] = t7;
-        $[24] = t13;
-    } else {
-        t13 = $[24];
-    }
-    let t14;
-    if ($[25] !== isSaveOptionAvailable || $[26] !== user) {
-        t14 = isSaveOptionAvailable && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            text: "save",
-            onClick: {
-                "UserCard[<Button>.onClick]": async ()=>{
-                    const result = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$utils$2f$usersApi$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["saveUser"])(user);
-                    if (result) {
-                        alert("User saved successfully!");
-                    } else {
-                        alert("Failed to save user");
-                    }
-                }
-            }["UserCard[<Button>.onClick]"]
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/UserCard.tsx",
-            lineNumber: 136,
-            columnNumber: 36
-        }, this);
-        $[25] = isSaveOptionAvailable;
-        $[26] = user;
-        $[27] = t14;
-    } else {
-        t14 = $[27];
-    }
-    let t15;
-    if ($[28] !== handleWeatherClick) {
-        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            text: "weather",
-            onClick: {
-                "UserCard[<Button>.onClick]": ()=>handleWeatherClick()
-            }["UserCard[<Button>.onClick]"]
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/UserCard.tsx",
-            lineNumber: 154,
-            columnNumber: 11
-        }, this);
-        $[28] = handleWeatherClick;
-        $[29] = t15;
-    } else {
-        t15 = $[29];
-    }
-    let t16;
-    if ($[30] !== t14 || $[31] !== t15) {
-        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex w-full",
-            children: [
-                t14,
-                t15
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/UserCard.tsx",
-            lineNumber: 164,
-            columnNumber: 11
-        }, this);
-        $[30] = t14;
-        $[31] = t15;
-        $[32] = t16;
-    } else {
-        t16 = $[32];
-    }
-    let t17;
-    if ($[33] !== t13 || $[34] !== t16 || $[35] !== t3) {
-        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "p-6 flex flex-col items-center\n    backdrop-blur-sm rounded-xl shadow-md\n    border border-white/30 h-fit 2xl:w-full\n    hover:shadow-lg transition-shadow duration-300",
-            children: [
-                t3,
-                t13,
-                t16
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/UserCard.tsx",
-            lineNumber: 173,
-            columnNumber: 11
-        }, this);
-        $[33] = t13;
-        $[34] = t16;
-        $[35] = t3;
-        $[36] = t17;
-    } else {
-        t17 = $[36];
-    }
-    return t17;
+        ]
+    }, void 0, true, {
+        fileName: "[project]/frontend/src/components/UserCard.tsx",
+        lineNumber: 28,
+        columnNumber: 3
+    }, this);
 }
-_s(UserCard, "taJExGthmpDy5elbFHi0cRyGdXM=", false, function() {
+_s(UserCard, "V/NtGmrakXHYF/r5g3fEeD0KFDI=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$context$2f$WeatherContext$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useWeatherContext"]
     ];
@@ -1199,7 +749,6 @@ __turbopack_context__.s([
     ()=>UserList
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$WeatherModal$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/src/components/WeatherModal.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$UserCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/src/components/UserCard.tsx [app-client] (ecmascript)");
@@ -1211,159 +760,72 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-;
 function UserList() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(16);
-    if ($[0] !== "bf2d95a3022d8c9ee7bb10c4b7835635e840230308d38f2597205f822f671782") {
-        for(let $i = 0; $i < 16; $i += 1){
-            $[$i] = Symbol.for("react.memo_cache_sentinel");
-        }
-        $[0] = "bf2d95a3022d8c9ee7bb10c4b7835635e840230308d38f2597205f822f671782";
-    }
-    let t0;
-    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
-        t0 = [];
-        $[1] = t0;
-    } else {
-        t0 = $[1];
-    }
-    const [users, setUsers] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(t0);
+    const [users, setUsers] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    let t1;
-    if ($[2] === Symbol.for("react.memo_cache_sentinel")) {
-        t1 = ({
-            "UserList[fetchUsers]": async ()=>{
-                setIsLoading(true);
-                const res = await fetch("/api/users?results=10");
-                const data = await res.json();
-                setUsers({
-                    "UserList[fetchUsers > setUsers()]": (prev)=>[
-                            ...prev,
-                            ...data.results
-                        ]
-                }["UserList[fetchUsers > setUsers()]"]);
-                setIsLoading(false);
-            }
-        })["UserList[fetchUsers]"];
-        $[2] = t1;
-    } else {
-        t1 = $[2];
-    }
-    const fetchUsers = t1;
-    let t2;
-    let t3;
-    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
-        t2 = ({
-            "UserList[useEffect()]": ()=>{
-                fetchUsers();
-            }
-        })["UserList[useEffect()]"];
-        t3 = [];
-        $[3] = t2;
-        $[4] = t3;
-    } else {
-        t2 = $[3];
-        t3 = $[4];
-    }
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t2, t3);
-    let t4;
-    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
-        t4 = ({
-            "UserList[handleLoadMore]": ()=>{
-                fetchUsers();
-            }
-        })["UserList[handleLoadMore]"];
-        $[5] = t4;
-    } else {
-        t4 = $[5];
-    }
-    const handleLoadMore = t4;
-    let t5;
-    if ($[6] !== users) {
-        t5 = users.map(_UserListUsersMap);
-        $[6] = users;
-        $[7] = t5;
-    } else {
-        t5 = $[7];
-    }
-    let t6;
-    if ($[8] !== t5) {
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3\n\t\t\t\txl:grid-cols-4 gap-4 mb-6 w-full",
-            children: t5
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/UserList.tsx",
-            lineNumber: 82,
-            columnNumber: 10
-        }, this);
-        $[8] = t5;
-        $[9] = t6;
-    } else {
-        t6 = $[9];
-    }
-    let t7;
-    if ($[10] !== isLoading) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            text: "Load more",
-            onClick: handleLoadMore,
-            isLoading: isLoading,
-            className: "!w-full sm:!w-[320px]"
-        }, void 0, false, {
-            fileName: "[project]/frontend/src/components/UserList.tsx",
-            lineNumber: 90,
-            columnNumber: 10
-        }, this);
-        $[10] = isLoading;
-        $[11] = t7;
-    } else {
-        t7 = $[11];
-    }
-    let t8;
-    if ($[12] === Symbol.for("react.memo_cache_sentinel")) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$WeatherModal$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-            fileName: "[project]/frontend/src/components/UserList.tsx",
-            lineNumber: 98,
-            columnNumber: 10
-        }, this);
-        $[12] = t8;
-    } else {
-        t8 = $[12];
-    }
-    let t9;
-    if ($[13] !== t6 || $[14] !== t7) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "px-6 w-full flex flex-col items-center max-w-[1536px] mx-auto",
-            children: [
-                t6,
-                t7,
-                t8
-            ]
-        }, void 0, true, {
-            fileName: "[project]/frontend/src/components/UserList.tsx",
-            lineNumber: 105,
-            columnNumber: 10
-        }, this);
-        $[13] = t6;
-        $[14] = t7;
-        $[15] = t9;
-    } else {
-        t9 = $[15];
-    }
-    return t9;
-}
-_s(UserList, "2V0dgz9PDCR0iYbirgepkUf6Zdk=");
-_c = UserList;
-function _UserListUsersMap(u) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$UserCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-        user: u,
-        isSaveOptionAvailable: true
-    }, u.login.uuid, false, {
+    const fetchUsers = async ()=>{
+        setIsLoading(true);
+        const res = await fetch(`/api/users?results=10`);
+        const data = await res.json();
+        setUsers((prev)=>[
+                ...prev,
+                ...data.results
+            ]);
+        setIsLoading(false);
+    };
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "UserList.useEffect": ()=>{
+            // eslint-disable-next-line react-hooks/set-state-in-effect
+            fetchUsers();
+        }
+    }["UserList.useEffect"], []);
+    const handleLoadMore = ()=>{
+        fetchUsers();
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: `px-6 w-full flex flex-col items-center max-w-[1536px] mx-auto`,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: `grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
+				xl:grid-cols-4 gap-4 mb-6 w-full`,
+                children: users.map((u)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$UserCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        user: u,
+                        isSaveOptionAvailable: true
+                    }, u.login.uuid, false, {
+                        fileName: "[project]/frontend/src/components/UserList.tsx",
+                        lineNumber: 37,
+                        columnNumber: 6
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/frontend/src/components/UserList.tsx",
+                lineNumber: 33,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                text: "Load more",
+                onClick: handleLoadMore,
+                isLoading: isLoading,
+                className: "!w-full sm:!w-[320px]"
+            }, void 0, false, {
+                fileName: "[project]/frontend/src/components/UserList.tsx",
+                lineNumber: 44,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$src$2f$components$2f$WeatherModal$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/frontend/src/components/UserList.tsx",
+                lineNumber: 51,
+                columnNumber: 4
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/frontend/src/components/UserList.tsx",
-        lineNumber: 115,
-        columnNumber: 10
+        lineNumber: 32,
+        columnNumber: 3
     }, this);
 }
+_s(UserList, "xvHpp/wcvLkKOA8HViH0oD4d0pM=");
+_c = UserList;
 var _c;
 __turbopack_context__.k.register(_c, "UserList");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {

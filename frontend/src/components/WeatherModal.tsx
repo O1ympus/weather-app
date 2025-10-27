@@ -1,3 +1,5 @@
+'use client'
+
 import {useWeatherContext} from '../context/WeatherContext'
 import Image from 'next/image'
 import {getWeatherIcon} from '../types/WeatherIcons'
