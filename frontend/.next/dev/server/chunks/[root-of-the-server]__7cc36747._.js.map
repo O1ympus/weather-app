@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///Users/keygen_exe/weather-app/frontend/src/app/api/users/route.ts"],"sourcesContent":["export async function GET(req: Request) {\n\tconst {searchParams} = new URL(req.url);\n\tconst results = searchParams.get('results') || '10';\n\tconst res = await fetch(`https://randomuser.me/api/?results=${results}`);\n\t\n\tconst data= await res.json();\n\t\n\treturn Response.json(data);\n}\n"],"names":[],"mappings":";;;;AAAO,eAAe,IAAI,GAAY;IACrC,MAAM,EAAC,YAAY,EAAC,GAAG,IAAI,IAAI,IAAI,GAAG;IACtC,MAAM,UAAU,aAAa,GAAG,CAAC,cAAc;IAC/C,MAAM,MAAM,MAAM,MAAM,CAAC,mCAAmC,EAAE,SAAS;IAEvE,MAAM,OAAM,MAAM,IAAI,IAAI;IAE1B,OAAO,SAAS,IAAI,CAAC;AACtB","debugId":null}}]
-}
