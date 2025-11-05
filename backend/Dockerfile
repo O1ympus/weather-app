@@ -19,12 +19,8 @@ RUN apk add --no-cache postgresql-client bash
 COPY --from=builder /usr/src/app/dist ./dist
 COPY --from=builder /usr/src/app/node_modules ./node_modules
 COPY --from=builder /usr/src/app/package*.json ./
-COPY wait-for-postgres.sh /wait-for-postgres.sh
-
-RUN chmod +x /wait-for-postgres.sh && chown -R app:app /usr/src/app /wait-for-postgres.sh
 
 USER app
 EXPOSE 3000
 
-ENTRYPOINT ["sh", "/wait-for-postgres.sh"]
-CMD ["npm", "run", "start:prod"]
+CMD ["node", "dist/main.js"]
