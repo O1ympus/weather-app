@@ -3,17 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "../node_modules/.bin/next dev",
-    "build": "../node_modules/.bin/next build",
-    "start": "../node_modules/.bin/next start",
-    "lint": "../node_modules/.bin/eslint"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "classnames": "^2.5.1",
-    "next": "16.0.0",
+    "next": "^16.0.1",
     "path-to-regexp": "^8.3.0",
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "zustand": "^5.0.8"
   },
   "devDependencies": {

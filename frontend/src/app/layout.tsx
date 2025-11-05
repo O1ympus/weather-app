@@ -27,9 +27,9 @@ export default function RootLayout({
     <body
 	    className={`${rubik.className} bg-gradient-to-br from-[#7D7F8A] to-[#202538] min-h-screen h-fit relative`}
     >
+      <Background />
       <WeatherProvider>
 	      <Header />
-        <Background />
         {children}
       </WeatherProvider>
       </body>

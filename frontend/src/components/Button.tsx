@@ -1,5 +1,8 @@
 'use client'
 
+import {useEffect} from 'react'
+import {useWeatherContext} from '../context/WeatherContext'
+
 interface Props {
 	text: string,
 	onClick?: () => void,
@@ -8,6 +11,16 @@ interface Props {
 }
 
 export default function Button({text, onClick, isLoading, className}: Props) {
+	const { isModalWindowActive } = useWeatherContext();
+	
+	useEffect(() => {
+		if (isModalWindowActive) {
+			document.body.style.overflow = 'hidden';
+		} else {
+			document.body.style.overflow = '';
+		}
+	}, [isModalWindowActive]);
+	
 	return (
 		<button
 			type="button"

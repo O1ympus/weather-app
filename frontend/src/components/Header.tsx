@@ -1,14 +1,7 @@
-'use client'
-
-import Link from 'next/link'
-import Image from 'next/image'
 import Navigation from './Navigation'
-import {PAGES} from '../config/pages.config'
-import cn from 'classnames'
-import {useWeatherContext} from '../context/WeatherContext'
+import {Logo} from './Logo'
 
 export default function Header() {
-	const { isModalWindowActive } = useWeatherContext();
   return (
     <header
       className={`
@@ -20,21 +13,7 @@ export default function Header() {
         2xl:!gap-x-[1315px] 2xl:!justify-center
       `}
     >
-      <Link href={PAGES.HOME} className={cn({
-	      'pointer-events-none': isModalWindowActive
-	      },
-	      "flex items-center gap-2"
-      )}>
-	      <div className={`w-7 h-7 relative`}>
-		      <Image
-			      src="/images/x-black.svg"
-			      alt="x.com"
-			      fill
-			      priority
-		      />
-        </div>
-      </Link>
-
+	    <Logo />
       <Navigation />
     </header>
   );
