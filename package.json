@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "npm --prefix backend run build && npm --prefix frontend run build",
-    "start": "npm --prefix backend run start:dev",
+    "build": "npm --prefix backend install && npm --prefix backend run build && npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "npm --prefix backend run start:prod",
     "start:dev": "docker-compose up --build"
   },
   "dependencies": {
