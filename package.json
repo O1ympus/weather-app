@@ -1,4 +1,12 @@
 {
+  "name": "weather-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "start": "npm --prefix backend run start:dev",
+    "start:dev": "docker-compose up --build"
+  },
   "dependencies": {
     "next": "^16.0.1",
     "react": "^19.2.0",
